@@ -46,7 +46,8 @@ Configuring Users
 sudo nano /opt/tomcat/conf/tomcat-users.xml 
 ```
 ```bash
-Change admin & Password with roles changing to "admin-gui, manager-gui"
+Change admin & Password with roles changing to "admin-gui, manager-gui" 
+<user username="tomcat" password="harman" roles="admin-gui,manager-gui,manager-script"/>
 ```
 Remove restriction on Manager & Host-Manager gui
 
